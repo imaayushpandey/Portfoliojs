@@ -1,0 +1,27 @@
+{
+  "name": "aayush-portfolio",
+  "version": "1.0.0",
+  "description": "Aayush's professional portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start": "start index.html",
+    "validate:html": "html-validator --file index.html --verbose",
+    "validate:css": "stylelint styles.css",
+    "validate:js": "eslint script.js",
+    "validate": "npm run validate:html && npm run validate:css && npm run validate:js",
+    "package": "powershell -Command \"Compress-Archive -Path '.\\*' -DestinationPath '.\\portfolio.zip' -Force\""
+  },
+  "keywords": [
+    "portfolio",
+    "cybersecurity",
+    "networking"
+  ],
+  "author": "Aayush",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "html-validator-cli": "^7.0.1",
+    "stylelint": "^15.6.2",
+    "stylelint-config-standard": "^33.0.0"
+  }
+}

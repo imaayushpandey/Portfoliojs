@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="#2a2f4f" />
+  
+  <!-- Letter A -->
+  <path d="M30,75 L45,25 L55,25 L70,75 L60,75 L56,65 L44,65 L40,75 L30,75 Z M47,35 L45,55 L55,55 L53,35 L47,35 Z" fill="#fde2f3" />
+  
+  <!-- Decorative Elements -->
+  <circle cx="50" cy="50" r="40" fill="none" stroke="#917fb3" stroke-width="2" stroke-dasharray="5,3" />
+  
+  <!-- Network Node Points -->
+  <circle cx="25" cy="30" r="3" fill="#917fb3" />
+  <circle cx="75" cy="30" r="3" fill="#917fb3" />
+  <circle cx="25" cy="70" r="3" fill="#917fb3" />
+  <circle cx="75" cy="70" r="3" fill="#917fb3" />
+  
+  <!-- Connection Lines -->
+  <line x1="25" y1="30" x2="75" y2="30" stroke="#917fb3" stroke-width="1.5" />
+  <line x1="25" y1="70" x2="75" y2="70" stroke="#917fb3" stroke-width="1.5" />
+  <line x1="25" y1="30" x2="25" y2="70" stroke="#917fb3" stroke-width="1.5" />
+  <line x1="75" y1="30" x2="75" y2="70" stroke="#917fb3" stroke-width="1.5" />
+  <line x1="25" y1="30" x2="75" y2="70" stroke="#917fb3" stroke-width="1.5" stroke-dasharray="3,2" />
+  <line x1="75" y1="30" x2="25" y2="70" stroke="#917fb3" stroke-width="1.5" stroke-dasharray="3,2" />
+</svg>
